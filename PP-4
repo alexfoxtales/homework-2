@@ -1,0 +1,7 @@
+compound_interest(double principal, double rate, int years)
+
+interest = 1 + rate;
+result = pow(interest, years);
+final balance = principal * result;
+
+cout << “The final balance is .” << final balance << endl;
