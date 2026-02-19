@@ -1,0 +1,12 @@
+find_max (int numbers[100])
+int max;
+
+cin >> num;
+max = num;
+
+for (int count = 0; count <100; count++)
+{
+max = num;
+else
+return max;
+}
