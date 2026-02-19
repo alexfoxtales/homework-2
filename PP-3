@@ -1,0 +1,11 @@
+double total_cost (int cost)
+const int SENTINEL = -1;
+cout << “Enter -1 to stop and get sum.” << endl;
+{
+int sum = 0;
+for (int i = 1; cost < -1; i++)
+{
+sum += cost;
+}
+return sum;
+}
